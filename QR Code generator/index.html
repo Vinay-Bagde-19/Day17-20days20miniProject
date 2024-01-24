@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid">
+        <h2>OR Code Generator</h2>
+        <center>
+            <img src="" id="img">
+        </center>
+        <select id="size">
+            <option value="100">100X100</option>
+            <option value="150">150X150</option>
+            <option value="200">200X200</option>
+            <option value="250" selected>250X250</option>
+            <option value="300">300X300</option>
+        </select>
+        <br><br>
+        <textarea id="qrtext" cols="20" rows="10" placeholder="Enter Your text"></textarea>
+        <br><br>
+        <input type="submit" id="" value="Generate" onclick="genQR()">
+        <p>Developed By Vinay Bagde</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
